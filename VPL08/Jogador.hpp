@@ -10,18 +10,10 @@ private:
     char simbolo;
 
 public:
-    // Construtor: recebe nome e símbolo e os armazena internamente
-    Jogador(string nome, char simbolo) : nome(nome), simbolo(simbolo) {}
+    Jogador(string nome, char simbolo);
 
-    // Retorna o nome do jogador
-    string getNome() const {
-        return nome;
-    }
-
-    // Retorna o símbolo do jogador ('X' ou 'O')
-    char getSimbolo() const {
-        return simbolo;
-    }
+    string getNome() const;
+    char getSimbolo() const;
 };
 
-#endif 
+#endif
